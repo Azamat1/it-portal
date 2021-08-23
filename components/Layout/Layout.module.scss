@@ -1,0 +1,41 @@
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    color: #55559b;
+    height: 8rem;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 3.6rem;
+}
+
+.menu {
+    background: linear-gradient(45deg, #aa4f83, #f59b5f);
+    height: 7rem;
+    padding: 1rem 3rem;
+}
+
+.menu_list {
+    height: 5rem;
+    li {
+        color: #fffae2;
+        padding: 0 2rem;
+        font-size: 2.4rem;
+        a {
+            padding: 1rem;
+            &:hover {
+                color: burlywood;
+            }
+        }
+        input {
+            width: 8rem;
+        }
+    }
+}
+
+.main {
+    flex: 1 1 auto;
+    padding: 6rem 10rem;
+}
