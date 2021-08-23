@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styles  from './Layout.module.scss'
 import Footer from './Footer'
 
@@ -8,10 +9,10 @@ export default function Layout({children}) {
         </header>
         <nav className={styles.menu}>
             <ul className={styles.menu_list + ' centered'}>
-                <li><a href="/">Статьи</a></li>
+                <li><Link href="/"><a>Статьи</a></Link></li>
                 <li><input></input></li>
-                <li><a href="/events">Курсы</a></li>
-                <li><a href="/events">Конспекты</a></li>
+                <li><Link href="/"><a>Курсы</a></Link></li>
+                <li><Link href="/"><a>Конспекты</a></Link></li>
             </ul>
         </nav>
         <main className={styles.main}>
