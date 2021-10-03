@@ -1,4 +1,19 @@
 .footer {
     height: 20rem;
-    background-color: blueviolet;
+    padding: 2rem 1rem;
+    background: linear-gradient(0deg, #815b8c, #aa4f83);
+
+    .menu_list {
+        li {
+            color: #fffae2;
+            padding: 0 2rem;
+            font-size: 1.6rem;
+            a {
+                padding: 1rem;
+                &:hover {
+                    color: burlywood;
+                }
+            }
+        }
+    }
 }

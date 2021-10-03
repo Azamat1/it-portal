@@ -14,7 +14,7 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet" />
       </Head>
         <ul>
-          <li>
+          <li className="centered">
             <Article />
           </li>
         </ul>
